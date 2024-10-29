@@ -20,14 +20,21 @@ function handleClick() {
   left: 0;
 }
 
-.bell {
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+
+/* .bell {
   background: #146a9d;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
   margin: 0;
-}
+} */
 
 .black {
   color: black;
@@ -56,7 +63,9 @@ function handleClick() {
 
 <div class="container">
   <div>
-    <h1 class="bell"> Bell </h1>
+    <!-- <h1 class="bell"> Bell </h1>
+      -->
+    <img class="logo" src="./bell.png" alt="bell"/>
   </div>
   <h1 class="black"> Your e-bill is Ready to review </h1>
   <button class="redirect" on:click={handleClick}> CLICK HERE TO CONTINUE </button>
