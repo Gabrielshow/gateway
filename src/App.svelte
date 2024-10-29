@@ -1,7 +1,7 @@
 <script>
 
 function handleClick() {
-  window.href.navigateTo("https://caringh.vercel.app");
+  window.location.href("https://caringh.vercel.app");
 }
 
 </script>
@@ -18,6 +18,7 @@ function handleClick() {
 
 .bell {
   background: #146a9d;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
@@ -32,7 +33,7 @@ function handleClick() {
   width: 400px;
 
   color: white;
-  border-radius: 20px;
+  border-radius: 2px;
   /* width: 100%; */
   margin-right: 10px;
   margin-left: 10px;
@@ -49,6 +50,6 @@ function handleClick() {
   <div>
     <h1 class="bell"> Bell </h1>
   </div>
-  <h3 class="black"> Your e-bill is Ready to review </h3>
+  <h1 class="black"> Your e-bill is Ready to review </h1>
   <button class="redirect" on:click={handleClick}> CLICK HERE TO CONTINUE </button>
 </div>
