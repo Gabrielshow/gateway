@@ -14,8 +14,10 @@ function handleClick() {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  height: 100%;
+  height: 100vh;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .bell {
@@ -24,16 +26,17 @@ function handleClick() {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
+  margin: 0;
 }
 
 .black {
   color: black;
+  margin: 0;
 }
 
 .redirect {
   background: black;
   width: 400px;
-
   color: white;
   border-radius: 2px;
   /* width: 100%; */
