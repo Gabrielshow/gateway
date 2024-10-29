@@ -9,8 +9,10 @@ function handleClick() {
 <style>
 
 .container {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   height: 100%;
   width: 100%;
@@ -35,6 +37,9 @@ function handleClick() {
   color: white;
   border-radius: 2px;
   /* width: 100%; */
+  cursor: pointer;
+  border: none;
+  height: 40px;
   margin-right: 10px;
   margin-left: 10px;
   transform: opacity 0.3s ease-in, box-shadow 0.3s ease-in;
