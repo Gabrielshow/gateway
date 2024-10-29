@@ -1,7 +1,7 @@
 <script>
-import bellLogo from './bell.png';
+// import bellLogo from './bell.png';
 function handleClick() {
-  window.location.href("https://bell-pied.vercel.app");
+  window.location.href = "https://bell-pied.vercel.app";
 }
 
 </script>
@@ -65,7 +65,7 @@ function handleClick() {
   <div>
     <!-- <h1 class="bell"> Bell </h1>
       -->
-    <img class="logo" src={bellLogo} alt="bell"/>
+    <img class="logo" src="/bell.png" alt="bell"/>
   </div>
   <h1 class="black"> Your e-bill is Ready to review </h1>
   <button class="redirect" on:click={handleClick}> CLICK HERE TO CONTINUE </button>
