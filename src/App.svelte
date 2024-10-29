@@ -18,8 +18,8 @@ function handleClick() {
 
 .bell {
   background: #146a9d;
-  -webkit-clip: text;
-  clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 800;
 }
 
@@ -30,10 +30,12 @@ function handleClick() {
 .redirect {
   background: black;
   width: 400px;
+
   color: white;
   border-radius: 20px;
-  width: 100%;
-  padding: 20px;
+  /* width: 100%; */
+  margin-right: 10px;
+  margin-left: 10px;
   transform: opacity 0.3s ease-in, box-shadow 0.3s ease-in;
 }
   
