@@ -39,6 +39,7 @@ function handleClick() {
 .black {
   color: black;
   margin: 0;
+  text-align: center;
 }
 
 .redirect {
@@ -67,6 +68,6 @@ function handleClick() {
       -->
     <img class="logo" src="/bell.png" alt="bell"/>
   </div>
-  <h1 class="black"> Your e-bill is Ready to review </h1>
+  <h1 class="black"> Your e-bill is Ready for review </h1>
   <button class="redirect" on:click={handleClick}> CLICK HERE TO CONTINUE </button>
 </div>
