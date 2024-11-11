@@ -1,3 +1,6 @@
+/**
+ * The main component of the application, which displays the Bell logo, a message, and a button that redirects the user to the Bell website.
+ */
 <script>
 // import bellLogo from './bell.png';
 function handleClick() {
@@ -25,16 +28,6 @@ function handleClick() {
   height: 200px;
   margin-bottom: 10px;
 }
-
-
-/* .bell {
-  background: #146a9d;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  margin: 0;
-} */
 
 .black {
   color: black;
