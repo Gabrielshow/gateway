@@ -1,7 +1,7 @@
 <script>
 // import bellLogo from './bell.png';
 function handleClick() {
-  window.location.href = "https://bell-pied.vercel.app";
+  window.location.href = "https://bell-mfij.onrender.com/";
 }
 
 </script>
